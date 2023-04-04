@@ -17,12 +17,12 @@ function set_variables() {
 # Customize the installation by setting these variables:
 vm_name="macOS"                  # name of the VirtualBox virtual machine
 macOS_release_name="Catalina"    # install "HighSierra" "Mojave" or "Catalina"
-storage_size=80000               # VM disk image size in MB, minimum 22000
+storage_size=120000               # VM disk image size in MB, minimum 22000
 storage_format="vdi"             # VM disk image file format, "vdi" or "vmdk"
-cpu_count=2                      # VM CPU cores, minimum 2
-memory_size=4096                 # VM RAM in MB, minimum 2048
+cpu_count=6                      # VM CPU cores, minimum 2
+memory_size=8096                 # VM RAM in MB, minimum 2048
 gpu_vram=128                     # VM video RAM in MB, minimum 34, maximum 128
-resolution="1280x800"            # VM display resolution
+resolution="1920x1080"            # VM display resolution
 
 # Values for NVRAM and EFI parameters are required by iCloud, iMessage,
 # and other connected Apple applications, but otherwise not required.
